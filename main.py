@@ -1,4 +1,4 @@
-from utils import *
+from utils import listFolder, readFile, parseYmd, mean, stats, np, plt
 
 for i in listFolder('./formated', endswith='.formated.json'):
   dictFeb: dict[str, str] = readFile(f'./formated/{i}')

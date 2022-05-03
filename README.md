@@ -3,6 +3,8 @@
 ---
  * `main.py` : used to show graph
  * `request.py` : download data all data from [InfoClimat OpenData](https://www.infoclimat.fr/opendata/)
+
+    ***Note :*** *In order to use `request.py` you have to* ***grab an API token on the [website](https://www.infoclimat.fr/opendata/)***
  * `utils.py` : bundle of all functions and import used in other files
 
 Extensions
@@ -17,7 +19,7 @@ Extensions
  * `.formated.json` is the extension for cleaned and minified data
 
     ***Note :*** *theses files only contains the dates and temperatures for a year and* ***all `null` values are removed***
-    
+
 Example
 ---
 ![OpenData Example](https://user-images.githubusercontent.com/74969657/166501403-d7acb4f7-634b-4a64-a369-09ae2d86bdd0.png)

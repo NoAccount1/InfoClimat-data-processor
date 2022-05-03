@@ -1,8 +1,15 @@
-# Python cache
+# Exclude Python cache
 /__pycache__
 
-# Remove raw data
+# Exclude raw data
 /*.auto
+/*.raw
+
+# Exclude .env configuration file
+.env
+
+# Exclude my testing file
+test.py
 
 # Include formated and merged files
 !/formated
