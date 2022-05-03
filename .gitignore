@@ -1,0 +1,9 @@
+# Python cache
+/__pycache__
+
+# Remove raw data
+/*.auto
+
+# Include formated and merged files
+!/formated
+!/merged
